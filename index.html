@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <header>
+    <header class="header">
         <div class="top-bar">
             <div class="top-bar-contac">
                 <a href="tel:123-456-7890">Phone: 123-456-7890</a>
@@ -50,7 +50,7 @@
 
 
 
-    <main>
+    <main class="main">
         <section class="hero-banner">
             <div class="hero-banner-content">
                 <h2 class="hero-banner-title">Best food for yor taste</h2>
@@ -224,46 +224,47 @@
         </section>
 
 
-        <section class="blog-articles">
-            <div>
-              <h2 class="blog-articles-title">Our Blog and Articles</h2>
-              <a href="" class="blog-read-all-articles-button">Read All Articles</a> 
+        <section class="blog">
+            <div class="blog-header">
+              <h2 class="blog-title">Our Blog and Articles</h2>
+              <button class="blog-button"></button> 
             </div>
-            <div class="article-cards">
-                <article class="article-card">
-                    <img src="/CodeSpace_Estefi/Image/articles-blog-p1.svg" alt="Foto hamburguesa">
-                    <time>January 3, 2023</time>
-                    <h3 class="article-card-title">The secret tips & tricks to prepare a perfect burger & pizza for our customers</h3>
-                    <p class="article-card-description">Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas.</p>
+
+            <div class="blog-articles">
+                <article class="blog-article">
+                    <img class="blog-article-img" src="/CodeSpace_Estefi/Image/articles-blog-p1.svg" alt="Foto hamburguesa">
+                    <time class="blog-article-date">January 3, 2023</time>
+                    <h3 class="blog-article-title">The secret tips & tricks to prepare a perfect burger & pizza for our customers</h3>
+                    <p class="blog-article-desc">Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas.</p>
             
                 </article>
                 
             
-                <article class="article-card">
-                    <img src="/CodeSpace_Estefi/Image/articles-blog-p2.svg" atl="Foto patatas fritas">
-                    <time class="article-card-date">January 3, 2023</time>
-                    <p class="article-card-description">How to prepare the perfect french fries in an air fryer</p>
+                <article class="blog-article">
+                    <img class="blog-article-img" src="/CodeSpace_Estefi/Image/articles-blog-p2.svg" atl="Foto patatas fritas">
+                    <time class="blog-article-date" class="article-card-date">January 3, 2023</time>
+                    <h3 class="blog-article-title">How to prepare the perfect french fries in an air fryer</h3>
 
                 </article>
 
-                <article class="article-card">
-                    <img src="/CodeSpace_Estefi/Image/articles-blog-p3.svg" atl="Foto cupcakes">
+                <article class="blog-article">
+                    <img class="blog-article-img"  src="/CodeSpace_Estefi/Image/articles-blog-p3.svg" atl="Foto cupcakes">
                     <time class="article-card-date">January 3, 2023</time>
-                    <p class="article-card-description">7 delicious cheesecake recipes you can prepare</p>
+                    <h3 class="blog-article-title">7 delicious cheesecake recipes you can prepare</h3>
 
                 </article>
 
-                <article class="article-card">
-                    <img src="/CodeSpace_Estefi/Image/articles-blog-p4.svg" atl="Foto de un plato con pollo frito">
-                    <time class="article-card-date">January 3, 2023</time>
-                    <p class="article-card-description">How to prepare delicious chicken tenders</p>
+                <article class="blog-article">
+                    <img class="blog-article-img" src="/CodeSpace_Estefi/Image/articles-blog-p4.svg" atl="Foto de un plato con pollo frito">
+                    <time class="blog-article-date" class="article-card-date">January 3, 2023</time>
+                    <h3 class="blog-article-title">How to prepare delicious chicken tenders</h3>
 
                 </article>
 
-                <article class="article-card">
-                    <img src="/CodeSpace_Estefi/Image/articles-blog-p5.svg" atl="Foto de una pizza">
-                    <time class="article-card-date">January 3, 2023</time>
-                    <p class="article-card-description">5 great pizza restaurants you should visit this city</p>
+                <article class="blog-article">
+                    <img class="blog-article-img" src="/CodeSpace_Estefi/Image/articles-blog-p5.svg" atl="Foto de una pizza">
+                    <time class="blog-article-date" >January 3, 2023</time>
+                    <h3 class="blog-article-title">5 great pizza restaurants you should visit this city</h3>
 
                 </article>
             </div>
@@ -273,10 +274,61 @@
     <!-- Comentario -->
 
 
-    <footer>
-        <div class="footer-content">
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="footer-info-company">
+                <div class="logo">
+                    <img src="/CodeSpace_Estefi/Image/japanese-food.svg" alt="Logo del restaurante">
+                    <h1>Bistro Bliss</h1>
+                </div>
+                <p class="footer-info-company-desc"></p>
+                <nav class="top-bar-social">
+                    <ul>
+                        <li><a href="#"> Facebook </a> </li>
+                        <li><a href="#"> Instagram </a> </li>
+                        <li><a href="#"> Twitter </a> </li> 
+                    </ul>  
+                </nav>
 
+            </div>
+            <div class="footer-info-pages">
+                <h3 class="footer-info-pages-title">Pages</h3>
+                <ul class="footer-info-pages-menu">
+                    <li class="footer-info-pages-menu-item">Home</li>
+                    <li class="footer-info-pages-menu-item">About</li>
+                    <li class="footer-info-pages-menu-item">Menu</li>
+                    <li class="footer-info-pages-menu-item">Pricing</li>
+                    <li class="footer-info-pages-menu-item">Blog</li>
+                    <li class="footer-info-pages-menu-item">Contact</li>
+                    <li class="footer-info-pages-menu-item">Delivery</li>
+                </ul>
+            </div>
+
+            <div class="footer-info-utility">
+                <h3 class="footer-info-utility-title">Utility Pages</h3>
+                <ul class="footer-info-utility-menu">
+                    <li class="footer-info-utility-menu-item">Start Here</li>
+                    <li class="footer-info-utility-menu-item">Styleguide</li>
+                    <li class="footer-info-utility-menu-item">Password Protected</li>
+                    <li class="footer-info-utility-menu-item">404 Not Found</li>
+                    <li class="footer-info-utility-menu-item">Licenses</li>
+                    <li class="footer-info-utility-menu-item">Changelog</li>
+                    <li class="footer-info-utility-menu-item">View More</li>
+                </ul>
+            </div>
+
+            <div class="footer-info-instagram">
+                <h3 class="footer-info-instagram-title">Follow Us On Instagram</h3>
+                <div class="footer-info-instagram-grid">
+                    <img class="footer-info-instagram-img" src="/CodeSpace_Estefi/Image/footer-p1.jpg" alt="Imagen de un bol de arroz con huevo y queso" >
+                    <img class="footer-info-instagram-img" src="/CodeSpace_Estefi/Image/footer-p2.jpg" alt="Imagen de patatatas fritas" >
+                    <img class="footer-info-instagram-img" src="/CodeSpace_Estefi/Image/footer-p3.jpg" alt="Imagen de batatas con huevo" >
+                    <img class="footer-info-instagram-img" src="/CodeSpace_Estefi/Image/footer-p4.jpg" alt="Imagen de tortitas con fresas" >
+                </div>
+                
+            </div>
         </div>
+        <p class="footer-copyright">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
     </footer>
 
 </body>
