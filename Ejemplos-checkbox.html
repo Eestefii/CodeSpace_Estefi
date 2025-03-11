@@ -1,0 +1,31 @@
+<input type="checkbox" name="" id="">
+<p>Hombre</p>
+
+<!--Lo anterior no está vinculado por lo que para hecer un checkbox es mejor un label, que nos dice que es lo que está seleccionando y vinculado con id al checkbox en sí-->
+
+<input type="checkbox" name="" id="genero">
+<label for="genero">Hombre</label>
+
+<!--Podría ir el input dentro del label también y ahorramos línea <label> <input > </label>-->
+
+<!--Value en los input es el valor que tiene ej:placeholder nos dice que tiene que hacer por ejemplo pon el nombre
+ pues el value una vez relleno nos decie que hay escrito dentro de donde se escribe pero si el value se ponemos antes
+ por ejemplo value='pepe' pues cuando recarga ya tiene el valor puesto que podemos cambiar -->
+<label for="name">Name</label>
+<input type="text" name="" id="name" placeholder="Escribe aquí">
+
+<!-- Hay algunos input que podemos poner como readonly por lo que por mucho que queremos no podemos modificar es un atributo que por ejemplo cuando ponermos el dni este lo convertimos en value
+ para que siempre sea el valor del dni y luego en readonly-->
+<label for="name">Name</label>
+<input type="text" name="" id="name" placeholder="Escribe aquí" readonly>
+
+<!-- Otro atributo es el disabled que desabilita el campo por ejemplo:-->
+<label for="name">Name</label>
+<input type="text" name="" id="name" placeholder="Escribe aquí" disabled>
+
+<!-- Otro atributo es el required que hace obligatorio el campo por ejemplo:-->
+<form> 
+    <label for="name">DNI</label>
+    <input type="text" name="" id="name" placeholder="escribe" required>
+</form>
+
