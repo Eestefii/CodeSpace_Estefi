@@ -4,27 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/CSS/style.css" ></link>
 </head>
 <body>
 
     <header class="header">
-        <div class="top-bar">
-            <div class="top-bar-contac">
-                <a href="tel:123-456-7890">Phone: 123-456-7890</a>
-                <a href="mailto: mail@mail.com"> mail@mail.com </a>
+        <div class="bg-dark-grey">
+            <nav class="top-bar">
+                <div class="top-bar-contact">
+                    <a href="tel:123-456-7890">
+                        <img src="/Image/phone.svg" alt="Icon telephone">
+                     123-456-7890
+                    </a>
 
-            </div>
-            <nav class="top-bar-social">
-                <ul>
-                    <li><a href="#"> Facebook </a> </li>
-                    <li><a href="#"> Instagram </a> </li>
-                    <li><a href="#"> Twitter </a> </li> 
-                </ul>
-                
+                    <a href="mailto: mail@mail.com"> 
+                        <img src="/Image/mail.svg" alt="">
+                     mail@mail.com 
+                    </a>
 
+                </div>
+
+                <nav class="top-bar-social">
+                 <ul class="top-bar-social-menu">
+                        <li><a href="#"> <img src="/Image/twiter.svg" alt=""> </a> </li>
+                        <li><a href="#"> <img src="/Image/facebook.svg" alt=""> </a> </li>
+                        <li><a href="#"> <img src="/Image/insta.svg" alt=""> </a> </li>
+                        <li><a href="#"> <img src="/Image/github.svg" alt=""> </a> </li> 
+                    </ul>
+                </nav>
             </nav>
-
         </div>
+
         <div class="main-menu">
             <div class="logo">
                 <img class="logo" src="Image/japanese-food.svg" alt="Logo restaurante Bistro Bliss" />
@@ -33,7 +43,7 @@
             
 
             <nav class="menu">
-                <ul>
+                <ul class="menu-list">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Menu</a></li>
@@ -56,8 +66,8 @@
                 <h2 class="hero-banner-title">Best food for yor taste</h2>
                 <p class="hero-banner-description"> Discover delectable cuisine and unforgettable moments in our welcoming, culinary heaven.</p>
                  <div class="hero-banner-buttons">
-                     <button class="hero-banner-button">Book a table</button>
-                     <button class="hero-banner-button">Explore menu</button>
+                     <button class="button button-xl button-red ">Book a table</button>
+                     <button class="button button-xl">Explore menu</button>
                  </div>
             </div>
             
@@ -74,7 +84,7 @@
                 </article>
 
                 <article class="our-menu-card">
-                    <img class="our-menu-card-image" src="/CodeSpace_Estefi/Image/MainDishes-icon.svg" alt="icono">
+                    <img class="our-menu-card-image" src="Image/MainDishes-icon.svg" alt="icono">
                     <h3 class="our-menu-card-title">Main Dishes</h3>
                     <p class="our-menu-card-description">In the new era of technology we look in the future with certainty and pride for our life.</p>
                     <a class="our-menu-card-link"  href="">Explore menu</a>
