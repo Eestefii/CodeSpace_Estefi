@@ -1,0 +1,20 @@
+.our-menu-card {
+    display: flex;
+    gap: 24px;
+    padding:24px 30px;
+    border-radius: 20 px
+    background-color;
+}
+
+.article-our-menu-card {
+    padding: 24px 30px
+    background-color: var(--color--tertiary);
+    border-radius: 20px;
+    display: flex;
+    felx-direction: colum;
+    align-item: center;
+    text-align: center;
+    gap: 12 px; 
+
+}
+

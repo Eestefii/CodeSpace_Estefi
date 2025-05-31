@@ -17,7 +17,7 @@
 
 .hero-banner-title {
     font-size: 6.25rem;
-    color: #474747;
+    color: var(--color-dark-grey);
 }
 
 .hero-banner-description {

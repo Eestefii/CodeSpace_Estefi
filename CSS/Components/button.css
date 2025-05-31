@@ -1,0 +1,21 @@
+.button {
+    padding: 12px 24px;
+    border-radius: 118px;
+    border: 1.5px solid var(--color-secondary);
+    background-color: transparent;
+    color: var(--color-secondary);
+    user-select: none;
+
+}
+
+.button-xl { 
+    padding: 20px 32px;
+}
+
+.button-red {
+    border: 1.5px solid var(--color-primary);
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+
+}
+

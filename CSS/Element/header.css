@@ -1,20 +1,18 @@
 
 .bg-dark-grey {
-    background-color: #474747;
+    background-color: var(--color-dark-grey);
 }
 
 
 .top-bar {
     display: flex;
     justify-content: space-between;
-    max-width: 1300px;
-    margin: 0 auto;
     padding: 9px 0;
 
 }
 
 .top-bar a {
-    color: white;
+    color: var(--color-tertiary);
     display: flex;
     gap: 8px;
     align-items: center;
@@ -39,8 +37,6 @@
 .main-menu {
     display: flex;
     justify-content: space-between;
-    max-width: 1300px;
-    margin: 0 auto;
     align-items: center;
     padding: 30 px 0;
 

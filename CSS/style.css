@@ -1,8 +1,29 @@
-@import "reset.css";
-@import "layout.css";
-@import "button.css";
-@import "header.css";
-@import "hero-banner.css";
+
+/*setting*/
+@import "Settings/variables.css";
+
+
+/*Generic*/
+@import "Generic/reset.css";
+@import "Generic/layout.css";
+
+
+/*Elements*/
+@import "Element/header.css";
+@import "Element/hero-banner.css";
+@import "Element/our-menu.css";
+
+
+/*Components*/
+@import "Components/button.css";
+
+
+
+
+
+
+
+
 
 
 
