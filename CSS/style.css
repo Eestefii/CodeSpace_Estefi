@@ -12,7 +12,8 @@
 @import "Element/header.css";
 @import "Element/hero-banner.css";
 @import "Element/our-menu.css";
-
+@import "Element/about-us.css";
+@import "Element/services.css";
 
 /*Components*/
 @import "Components/button.css";
