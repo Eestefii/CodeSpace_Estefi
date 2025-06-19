@@ -1,22 +1,26 @@
 
 /*setting*/
-@import "Settings/variables.css";
+@import "00-Settings/variables.css";
 
 
 /*Generic*/
-@import "Generic/reset.css";
-@import "Generic/layout.css";
+@import "01-Generic/reset.css";
+@import "01-Generic/layout.css";
 
 
 /*Elements*/
-@import "Element/header.css";
-@import "Element/hero-banner.css";
-@import "Element/our-menu.css";
-@import "Element/about-us.css";
-@import "Element/services.css";
+@import "02-Element/header.css";
+@import "02-Element/hero-banner.css";
+@import "02-Element/our-menu.css";
+@import "02-Element/about-us.css";
+@import "02-Element/services.css";
+@import "02-Element/delivery.css";
+@import "02-Element/opinions.css";
+@import "02-Element/blog.css";
+@import "02-Element/footer.css";
 
 /*Components*/
-@import "Components/button.css";
+@import "03-Components/button.css";
 
 
 

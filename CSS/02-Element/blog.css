@@ -1,0 +1,146 @@
+.blog {
+    padding-block: 7.5rem;
+    
+}
+
+.blog-header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-block-end: 4rem;
+}
+
+
+.blog-title {
+    font-family: var(--font-title);
+    font-size: 3.4375rem;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.blog-articles {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 0.5fr);
+    gap: 2.5rem;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.blog-article-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .blog-article {
+    flex: 1 1 48%
+  }
+
+  .blog-article-main {
+    flex: 1 1 100%
+  }
+
+  @media (width <= 768px) {
+    .blog {
+        padding-block: 3.5rem;
+    }
+
+    .blog-articles {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .blog-article-main {
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+
+    .blog-header {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+
+    @media (width <= 37.5rem) {
+        .blog-articles {
+            grid-template-columns: 1fr;
+        }
+        .blog-article-main {
+        grid-column: span 1;
+        }
+    }
+
+}
+
+
+.blog-article-main {
+    grid-row: span 2;
+    border-radius: 1rem;
+    background-color: var (--color-white);
+    box-shadow: 0rem .25rem 1.5125rem 0rem rgba(0,0,0,0.08);
+    flex: 1 1 18%;
+
+    .blog-article-data {
+        padding: 2.5rem 2.125rem
+    }
+    .blog-article-date {
+        font-family: var(--font-text);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 150%;
+        color: #737865;
+        }
+    
+    .blog-article-desc {
+        font-family: var(--font-text);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 150%;
+        color: #414546;
+        }
+    
+    .blog-article-title{
+        font-family: var(--font-text);
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 130%;
+        color: var(--color-neutral-100);
+        }
+
+}
+
+.blog-article {
+    border-radius: 1rem;
+    background-color: var (--color-white);
+    box-shadow: 0rem .25rem 1.5125rem 0rem rgba(0,0,0,0.08);
+    .blog-article-data { 
+     padding: 1rem 1rem 1.5rem 1rem;   
+    }
+
+    .blog-article-title{
+        font-family: var(--font-text);
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 130%;
+        color: var(--color-neutral-100);
+    }
+
+    .blog-article-date {
+        font-family: var(--font-text);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 150%;
+        color: #737865;
+    }
+
+}
+
+
+
+
+
+

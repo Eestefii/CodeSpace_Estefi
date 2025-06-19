@@ -20,7 +20,7 @@
 }
 
 .hero-banner-title {
-    font-size: 6.25rem;
+    font-size: clamp(3.125rem, -0.0193rem + 7.7399vw, 6.75rem);
     font-family: var(--font-tittle);
     color: var(--color-dark-grey);
     font-weight: 400;
@@ -41,4 +41,11 @@
     justify-content: center;
     gap: 1rem;
 
+}
+
+@media (width <= 768px){
+ .hero-banner-title {
+    font-size: 4.25rem;
+    }
+    
 }

@@ -1,13 +1,16 @@
 
+.bg-grey {
+  background-color: var(--color-tertiary);
+}
 
 .about-us {
     display: flex;
     align-items: center;
     padding-block: 120px;
-    padding: 100px;
-    background-color: var(--color-tertiary);
-   
+    flex-wrap: nowrap;
 }
+
+
 
 .about-us > div {
     width: 50%;
@@ -121,14 +124,40 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
-  color: var(--color-font);
+  color: var(--color-font-light);
   margin-block-start: 0;
-  marging-block-end: 16px;
+  margin-block-end: 16px;
 }
 
 .about-us-link {
   width: fit-content;
   text-decoration: none;
+}
+
+@media (width <= 64rem) {
+  .about-us-text {
+    padding-inline-start: 3.5rem;
+  }
+}
+
+@media (width <= 48rem) {
+  .about-us {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-block: 3.5rem 6rem;
+
+  }
+
+  .about-us > div {
+    width: auto;
+  }
+
+  .about-us-text {
+    order: -1;
+    padding-inline-start: 0;
+    margin-block-end: 3rem;
+
+  }
 }
 
     /*

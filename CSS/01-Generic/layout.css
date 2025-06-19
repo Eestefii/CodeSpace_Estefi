@@ -9,8 +9,13 @@ h1, h2, h3, h4, h5, h6
     font-family: var(--font-title);
 }
 
+h1 {
+    font-style: italic;
+    font-weight: 400;
+}
 .container {
     max-width: 81rem;
+    padding-inline: 1rem;
     margin: 0 auto;
 }
 
@@ -18,4 +23,5 @@ h1, h2, h3, h4, h5, h6
 .bg-white {
     background-color: var(--color-white);
 }
+
 

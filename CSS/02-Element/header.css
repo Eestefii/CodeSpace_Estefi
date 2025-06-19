@@ -7,7 +7,7 @@
 .top-bar {
     display: flex;
     justify-content: space-between;
-    padding: 9px 0;
+    padding: 0.5625rem 1rem;
     font-family: var(--font-text);
     font-weight: 400;
     font-size: 16px;
@@ -42,9 +42,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30 px 0;
-
-
+    padding: 1.875rem 1rem;
 }
 
 .logo {
@@ -53,9 +51,14 @@
     gap: 14px;
 }
 
+.logo-title {
+    color: var(--color-dark-grey);
+}
+
 
 .menu-list {
     display: flex;
+    color: var(--color-secondary);
     align-items: center;
     gap: 40px;
     font-family: var(--font-text);
@@ -69,5 +72,16 @@
     color: var(--color-black);
     text-decoration: none;
     ;
+}
+
+
+@media (width <= 48rem) {
+    .menu {
+        display: none;
+    }
+
+    .contact-text {
+        display: none;
+    }
 }
 
